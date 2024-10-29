@@ -11,9 +11,9 @@ I've change to use the 3rd commit on vscode. but i didnt get it, i think i shoul
 Okay on this day i will share the freecodecamps tutorial answer here by number
 there is the link with answered number https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-[changenumber]
 1.
-<code>
+<p><code>
     <h1>CatPhotoApp</h1>
-</code>
+<p></code>
 2.
     <h1>CatPhotoApp</h1>
     <h2>Cat Photos</h2>
