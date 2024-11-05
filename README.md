@@ -323,6 +323,7 @@ https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-buil
 ```
           <label><input id="indoor" value="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
           <label><input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>```
+```
 52.
 ```
           <fieldset>            
