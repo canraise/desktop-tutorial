@@ -83,6 +83,7 @@ https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-buil
 14.
 ```
       <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>```
+```
 15.
 ```
       <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
