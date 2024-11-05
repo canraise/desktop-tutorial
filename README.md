@@ -313,5 +313,144 @@ https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-buil
           <label><input id="indoor" type="radio"> Indoor</label>
           <label><input id="outdoor" type="radio"> Outdoor</label>  
 ```
+50.
+```
+          <label><input name="indoor-outdoor" id="indoor" type="radio"> Indoor</label>
+          <label><input name="indoor-outdoor" id="outdoor" type="radio"> Outdoor</label>
+```
+51.
+```
+          <label><input id="indoor" value="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+          <label><input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>```
+52.
+```
+          <fieldset>            
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+```
+53.
+```
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+```
+54.
+```
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset></fieldset>
+```
+55.
+```
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+          </fieldset>
+```
+56. dont use label tag here
+```
+            <legend>What's your cat's personality?</legend>
+            <input type="checkbox"> Loving 
+```
+57.
+```
+            <input type="checkbox" id="loving"> Loving
+```
+58.
+```
+            <input id="loving" type="checkbox"> <label for="loving" name="loving">Loving</label>
+```
+59.
+```
+            <input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
+```
+60.
+```
+            <input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
+```
+61.
+```
+            <input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality"> <label for="energetic">Energetic</label>
+```
+62.
+```
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving"> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic"> Energetic</label>
+          </fieldset>
+```
+63.
+```
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input checked id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input checked id="loving" type="checkbox" name="personality" value="loving"> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic"> Energetic</label>
+          </fieldset>
+```
+64.
+```
+    </main>
+      <footer></footer>
+  </body>
+```
+65.
+```
+    <footer>
+      <p> No Copyright - freeCodeCamp.org</p>
+    </footer>
+```
+66.
+```
+      <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+```
+67.
+```
+<html>
+<head></head>
+  <body>
+```
+68.
+```
+  <head>
+    <title>CatPhotoApp</title>
+  </head>
+```
+69.
+```
+<html lang="en">
+```
+70.
+```
+<!DOCTYPE html>
+<html lang="en">
+```
+71. last
+```
+  <head>
+    <meta charset="utf-8">
+    <title>CatPhotoApp</title>
+  </head>
+```
 
 thats enough for now, see u next time
