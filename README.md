@@ -447,7 +447,7 @@ https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-buil
 <!DOCTYPE html>
 <html lang="en">
 ```
-71. last
+71. last form HTML Cat Photo App
 ```
   <head>
     <meta charset="utf-8">
@@ -1196,34 +1196,158 @@ hr {
 ```
 72.
 ```
-
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
 ```
 73.
 ```
+h1, h2 {
+  font-family: Impact, serif;
+}
 
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
 ```
 74.
 ```
-
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
 ```
 75.
 ```
+.bottom-line{
+  margin-top: 25px;
+}
+```
+76.
+```
+      <hr class="bottom-line">
+```
+77.
+```
+/* FOOTER */
+```
+78.
+```
+footer {
+  font-size: 14px;
+}
+```
+79.
+```
+a {
+  color: black;
+}
+```
+80.
+```
+a:visited {
+  color: grey;
+}
+```
+81.
+```
+a:hover {
+  color: brown;
+}
+```
+82.
+```
 
+a:active {
+  color: white;
+}
 ```
-70.
+83.
 ```
+a:visited {
+  color: black;
+}
 
-```
-70.
-```
+a:hover {
+  color: brown;
+}
 
+a:active {
+  color: brown;
+}
 ```
-70.
+84.
 ```
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
+```
+85.
+```
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+```
+86.
+```
+.address {
+  margin-bottom: 5px;
+}
+```
+87.
+```
+      <footer>
+        <p>
+          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">123 Free Code Camp Drive</p>
+      </footer>
+```
+88.
+```
+https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg
+```
+89.
+```
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+```
+90.
+```
+<h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+```
+91. last for CSS Cafe Menu
+```
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+```
+next CSS Colored Markers
 
-```
-70.
-```
-
-```
 thats enough for now, see u next time
