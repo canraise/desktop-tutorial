@@ -1348,6 +1348,245 @@ img {
   margin-top: -25px;
 }
 ```
-next CSS Colored Markers
+
+here i comes to another courses, but i just have few minutes to learn this.
+
+#4 Learn CSS Colors by Building a Set of Colored Markers
+This is the next courses on responsive web design. This course have different link with another courses above. I will show the link below:
+```
+https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-[changenumber]
+```
+
+1.
+```
+<!DOCTYPE html>
+<html lang="en">
+</html>
+```
+
+2.
+```
+<head>
+</head>
+<body>
+</body>
+```
+
+3.
+```
+  <head>
+    <title>
+      Colored Markers
+    </title>
+  </head>
+```
+4.
+```
+  <head>
+    <title>Colored Markers</title>
+    <meta charset="utf-8">
+  </head>
+```
+5.
+```
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Colored Markers</title>
+  </head>
+```
+6.
+```
+  <body>
+    <h1>CSS Color Markers</h1>
+  </body>
+```
+7.
+```
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Markers</title>
+  </head>
+```
+8.
+```
+h1{
+  text-align: center;
+}
+```
+9.
+```
+  <body>
+    <h1>CSS Color Markers</h1>
+    <div class="container">
+    </div>
+  </body>
+```
+10.
+```
+  <body>
+    <h1>CSS Color Markers</h1>
+    <div class="container">
+      <div class="marker">
+      </div>
+    </div>
+  </body>
+```
+11.
+```
+.marker{
+  background-color: red;
+}
+```
+12.
+```
+.marker {
+  background-color: red;
+  height: 25px;
+  width: 200px;
+}
+```
+13.
+```
+.marker {
+  width: 200px;
+  height: 25px;
+  background-color: red;
+  margin: auto;
+}
+```
+14.
+```
+    <div class="container">
+      <div class="marker">
+      </div>
+      <div class="marker">
+      </div>
+      <div class="marker">
+      </div>
+    </div>
+```
+15.
+```
+.marker {
+  width: 200px;
+  height: 25px;
+  background-color: red;
+  margin: 10px auto;
+}
+```
+16.
+```
+      <div class="marker one">
+      </div>
+      <div class="marker">
+      </div>
+      <div class="marker">
+      </div>
+```
+17.
+```
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+```
+18.
+```
+.one{
+  background-color:red;
+}
+```
+19.
+```
+      <div class="marker one">
+      </div>
+      <div class="marker two">
+      </div>
+      <div class="marker three">
+      </div>
+```
+20.
+```
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: blue;
+}
+```
+21.
+```
+.container{
+  background-color: rgb(0,0,0)
+}
+```
+22.
+```
+.one {
+  background-color: rgb(255,0,0);
+}
+```
+23.
+```
+.two {
+  background-color: rgb(0, 255, 0);
+}
+
+.three {
+  background-color: rgb(0,0,255);
+}
+```
+24.
+```
+.two {
+  background-color: rgb(0, 127, 0);
+}
+```
+25.
+```
+.container {
+  padding: 10px 0;
+  margin:0;
+  background-color: rgb(0, 0, 0);
+}
+```
+26.
+```
+.two {
+  background-color: rgb(0, 255, 0);
+}
+```
+27.
+```
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+```
+28.
+```
+.one {
+  background-color: rgb(255, 255, 0);
+}
+```
+29.
+```
+.two {
+  background-color: rgb(0, 255, 255);
+}
+```
+30.
+```
+.three {
+  background-color: rgb(255, 0, 255);
+}
+```
+
+next CSS Colored Markers 31
 
 thats enough for now, see u next time
