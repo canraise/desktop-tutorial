@@ -1586,7 +1586,503 @@ h1{
   background-color: rgb(255, 0, 255);
 }
 ```
+31.
+```
+.one {
+  background-color: rgb(255, 127, 0);
+}
+```
+32.
+```
+.two {
+  background-color: rgb(0, 255, 127);
+}
+```
+33.
+```
+.three {
+  background-color: rgb(127, 0, 1255);
+}
+```
+34.
+```
+.one {
+  background-color: rgb(127, 255, 0);
+}
 
-next CSS Colored Markers 31
+.two {
+  background-color: rgb(0, 127, 255);
+}
 
-thats enough for now, see u next time
+.three {
+  background-color: rgb(255, 0, 127);
+}
+```
+35.
+```
+.one {
+  background-color: rgb(0,0,0);
+}
+
+.two {
+  background-color: rgb(0,0,0);
+}
+
+.three {
+  background-color: rgb(0,0,0);
+}
+```
+36.
+```
+.one {
+  background-color: rgb(255, 0, 0);
+}
+
+.two {
+  background-color: rgb(0, 255, 255);
+}
+```
+37.
+```
+h1 {
+  text-align: center;
+  background-color: cyan;
+}
+```
+38.
+```
+.one {
+  background-color: rgb(0, 0, 0);
+}
+
+.two {
+  background-color: rgb(255, 0, 0);
+}
+```
+39.
+```
+.two {
+  background-color: rgb(0, 0, 0);
+}
+```
+40.
+```
+h1 {
+  text-align: center;
+}
+```
+41.
+```
+      <div class="marker red">
+      </div>
+      <div class="marker two">
+      </div>
+      <div class="marker three">
+      </div>
+```
+42.
+```
+.red {
+  background-color: rgb(0, 0, 0);
+}
+
+.two {
+  background-color: rgb(0, 0, 0);
+}
+
+.three {
+  background-color: rgb(0, 0, 0);
+}
+```
+43.
+```
+.red {
+  background-color: rgb(255, 0, 0);
+}
+
+.two {
+  background-color: rgb(0, 0, 0);
+}
+
+.three {
+  background-color: rgb(0, 0, 0);
+}
+```
+44.
+```
+      <div class="marker red">
+      </div>
+      <div class="marker green">
+      </div>
+      <div class="marker blue">
+      </div>
+```
+45.
+```
+.red {
+  background-color: rgb(255, 0, 0);
+}
+
+.green {
+  background-color: rgb(0, 0, 0);
+}
+
+.blue {
+  background-color: rgb(0, 0, 0);
+}
+```
+46.
+```
+.green {
+  background-color: #00FF00;
+}
+```
+47.
+```
+.green {
+  background-color: #007F00;
+}
+```
+48.
+```
+.blue {
+  background-color: hsl(240, 100%, 50%);
+}
+```
+49.
+```
+.red {
+  background: rgb(255, 0, 0);
+}
+```
+50.
+```
+.red {
+  background: linear-gradient(90deg));
+}
+```
+51.
+```
+.red {
+  background: linear-gradient(90deg, rgb(255,0,0));
+}
+```
+52.
+```
+.red {
+  background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0,255,0));
+}
+```
+53.
+```
+.red {
+  background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+}
+```
+54.
+```
+.red {
+  background: linear-gradient(180deg, rgb(255, 0, 0) 75%, rgb(0, 255, 0), rgb(0, 0, 255));
+}
+```
+55.
+```
+.red {
+  background: linear-gradient(180deg, rgb(255, 0, 0) 0%, rgb(0, 255, 0) 50%, rgb(0, 0, 255) 100%);}
+```
+56.
+```
+.red {
+  background: linear-gradient(180deg, rgb(255, 0, 0) 0%, rgb(0, 255, 0) 50%, rgb(0, 0, 255) 100%);}
+```
+57.
+```
+.red {
+  background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(0, 255, 0) 50%, rgb(0, 0, 255) 100%);
+}
+```
+58.
+```
+.red {
+  background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(0, 0, 255) 100%);
+}
+```
+59.
+```
+.red {
+  background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+}
+```
+60.
+```
+.green {
+  background: #007F00;
+}
+```
+61.
+```
+.green {
+  background: linear-gradient(180deg,#55680D)}
+```
+62.
+```
+.green {
+  background: linear-gradient(180deg, #55680D,#71F53E);
+}
+```
+63.
+```
+.green {
+  background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
+}
+```
+64.
+```
+.red {
+  background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+}
+```
+65.
+```
+.red {
+  background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+}
+```
+66.
+```
+.blue {
+  background: hsl(240, 100%, 50%);
+}
+```
+67.
+```
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%));
+}
+```
+68.
+```
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%),hsl(223, 90%, 60%));
+}
+```
+69.
+```
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%),hsl(240, 56%, 42%));
+}
+```
+70.
+```
+      <div class="marker red">
+        <div class="sleeve">
+
+        </div>
+      </div>
+```
+71.
+```
+.sleeve{
+  width: 110px;
+  height: 25px;
+}
+```
+72.
+```
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: white;
+}
+```
+73.
+```
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: white;
+  opacity: 0.5;
+}
+```
+74.
+```
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: white;
+}
+```
+75.
+```
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255,255,255,0.5);
+}
+```
+76.
+```
+      <div class="marker red">
+        <div class="cap"></div>
+        <div class="sleeve"></div>
+      </div>
+```
+77.
+```
+.cap{
+  width: 60px;
+  height: 25px;
+}
+```
+78.
+```
+.cap, .sleeve{
+  display: inline-block;
+}
+```
+79.
+```
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left-width: 10px;
+}
+```
+80.
+```
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left-width: 10px;
+  border-left-style: solid;
+}
+```
+81.
+```
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: black;
+}
+```
+82.
+```
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px solid black;
+}
+```
+83.
+```
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double black;
+}
+```
+84.
+```
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0,0,0,75%);
+}
+```
+85.
+```
+      <div class="marker red">
+        <div class="cap"></div>
+        <div class="sleeve"></div>
+      </div>
+      <div class="marker green">
+        <div class="cap"></div>
+        <div class="sleeve"></div>
+      </div>
+      <div class="marker blue">
+        <div class="cap"></div>
+        <div class="sleeve"></div>
+      </div>
+```
+86.
+```
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 5px 5px red;
+}
+```
+87.
+```
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: -5px -5px red;
+}
+```
+88.
+```
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 5px 5px 5px green;
+}
+```
+89.
+```
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 0 5px blue
+}
+```
+90.
+```
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0 0 20px 0 red;
+}
+```
+91.
+```
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+```
+92.
+```
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 0 0 20px 0 green;
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 blue;
+}
+```
+93.
+```
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 0 0 20px 0 #3b7e20cc;
+}
+```
+94.
+```
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
+}
+```
+
+thats enough for now,
+
+next HTML Forms by Building a Registration Form, Not started yet
+
+see u next time
