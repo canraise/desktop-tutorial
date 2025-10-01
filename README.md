@@ -1,7 +1,7 @@
 #1 Welcome to GitHub Desktop!
 
 ReadMe First!
-This is the documentation of my Github Desktop learning from Zero to Hero.
+This is the documentation of my Github Desktop learning from Zero to Hero, i used this to make my self learning path on freecodecamp.org can be seen publicly.
 
 I'm Candra, an ordinary person.
 This is the second commit using atom, but its not even support github integration, coz of that i uninstalled atom.
