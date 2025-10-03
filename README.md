@@ -2081,6 +2081,8 @@ h1 {
 }
 ```
 
+testing git on vscode terminal 
+
 thats enough for now,
 
 next HTML Forms by Building a Registration Form, Not started yet
