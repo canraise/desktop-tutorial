@@ -5,7 +5,8 @@ This is the documentation of my Github Desktop learning from Zero to Hero, i use
 
 I'm Candra, an ordinary person.
 This is the second commit using atom, but its not even support github integration, coz of that i uninstalled atom.
-I've change to use the 3rd commit on vscode. but i didnt get it, i think i should install git packeage on vscode. I will try it tomorrow and push it ushing github desktop. see u
+I've change to use the 3rd commit on vscode. but i didnt get it, i think i should install git packeage on vscode. I will try it tomorrow and push it ushing github desktop. 
+this day 3-10-2025 i'm tryin to configure git on vscode terminal and i got it, from now i can push my git on vscode terminal without using github desktop application.
 
 #2 Learn HTML by Building a Cat Photo App
 Okay on this day i will share the freecodecamp.org tutorial answer here by number
@@ -2081,10 +2082,170 @@ h1 {
 }
 ```
 
-testing git on vscode terminal 
+Here I'm trying to configure my github desktop win10 to be used by vscode terminal. It's doesn't work for a while because i don't restart the vscode application. 
+When i finish restart the vscode, all my config was work, and there is a device verification cradential that should i do to make this thing work.
+
+Now i comes to another courses, but i just have few minutes to learn this.
+
+#5 Learn HTML Forms by Building a Registration Form
+This is the next courses on responsive web design. This course have different link with another courses above. I will show the link below:
+```
+https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-[changenumber]
+```
+
+1.
+```
+<!DOCTYPE html>
+```
+2.
+```
+<!DOCTYPE html>
+<html lang="en"></html>
+```
+3.
+```
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body></body>
+</html>
+```
+4.
+```
+  <head>
+    <title>Registration Form</title>
+    <meta charset="utf-8">
+  </head>
+```
+5.
+```
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+```
+6.
+```
+  <body>
+    <h1>Registration Form</h1>
+  </body>
+```
+7.
+```
+  <body>
+    <h1>Registration Form</h1>
+    <p><strong>Please fill out this form with the required information</strong></p>
+  </body>
+```
+8.
+```
+body {
+  width: 100%;
+  height: 100vh;
+}
+```
+9.
+```
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+```
+10.
+```
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7
+}
+```
+11.
+```
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form action="https://register-demo.freecodecamp.org"></form>
+  </body>
+```
+12.
+```
+    <form action='https://register-demo.freecodecamp.org' method="POST"></form>
+```
+13.
+```
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+    <fieldset></fieldset>
+    <fieldset></fieldset>
+    <fieldset></fieldset>
+    </form>
+  </body>
+```
+14.
+```
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label>name</label>
+        <label>email</label>
+        <label>password</label>
+        <label></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+    </form>
+```
+15.
+```
+      <fieldset>
+        <label>Enter Your First Name:</label>
+        <label>Enter Your Last Name:</label>
+        <label>Enter Your Email:</label>
+        <label>Create a New Password:</label>
+      </fieldset>
+```
+16.
+```
+label {
+  display: block;
+  margin: 0.5rem 0
+}
+```
+17.
+```
+      <fieldset>
+        <label>Enter Your First Name: <input></label>
+        <label>Enter Your Last Name: <input></label>
+        <label>Enter Your Email: <input></label>
+        <label>Create a New Password: <input></label>
+      </fieldset>
+```
+18.
+```
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name"/></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name"/></label>
+        <label for="email">Enter Your Email: <input id="email"/></label>
+        <label for="new-password">Create a New Password: <input id="new-password"/></label>
+      </fieldset>
+```
+19.
+```
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text"/></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text"/></label>
+        <label for="email">Enter Your Email: <input id="email" type="email"/></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password"/></label>
+      </fieldset>
+```
 
 thats enough for now,
 
-next HTML Forms by Building a Registration Form, Not started yet
+next HTML Forms by Building a Registration Form, 20-65
 
 see u next time
