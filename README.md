@@ -2243,9 +2243,523 @@ label {
         <label for="new-password">Create a New Password: <input id="new-password" type="password"/></label>
       </fieldset>
 ```
+20.
+```
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" /></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+        <input type="submit" value="Submit">
+```
+21.
+```
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required/></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required/></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required/></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" required/></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit" />
+```
+22.
+```
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input minlength="8" id="new-password" type="password" required /></label>
+      </fieldset>
+```
+23.
+```
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+```
+24.
+```
+      <fieldset>
+        <label></label>
+        <label></label>
+      </fieldset>
+```
+25.
+```
+      <fieldset>
+        <label> <input type="radio"></label>
+        <label> <input type="radio"></label>
+      </fieldset>
+```
+26.
+```
+        <label><input type="radio" /> Personal</label>
+        <label><input type="radio" /> Business</label>
+```
+27.
+```
+      <fieldset>
+        <label><input name="account-type" type="radio" /> Personal</label>
+        <label><input name="account-type" type="radio" /> Business</label>
+      </fieldset>
+```
+28.
+```
+      <fieldset>
+      <legend>Account type (required)</legend>
+        <label><input type="radio" name="account-type" checked /> Personal</label>
+        <label><input type="radio" name="account-type" /> Business</label>
+      </fieldset>
+```
+29.
+```
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account" ><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account" ><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+```
+30.
+```
+<label for="terms-and-conditions"> <input type="checkbox" required id="terms-and-conditions"> </label>
+```
+31.
+```
+      <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required />I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions </a></label>
+```
+32.
+```
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>        
+      </fieldset>
+```
+33.
+```
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120">
+      </fieldset>
+```
+34.
+```
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+        <select>
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+        </select>
+      </fieldset>
 
+```
+35.
+```
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+        <label>How did you hear about us?<select>
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+        </select>
+        </label>
+      </fieldset>
+```
+36.
+```
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+        <label>How did you hear about us?
+          <select>
+            <option>(select one)</option>
+            <option>freeCodeCamp News</option>
+            <option>freeCodeCamp YouTube Channel</option>
+            <option>freeCodeCamp Forum</option>
+            <option>Other</option>
+          </select>
+        </label>
+      </fieldset>
+```
+37.
+```
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+        <label>How did you hear about us?
+          <select>
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+      </fieldset>
+```
+38.
+```
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+        <label>How did you hear about us?
+          <select>
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label>Provide a bio:
+          <textarea></textarea>
+        </label>
+      </fieldset>
+```
+39.
+```
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio"></textarea>
+        </label>
+      </fieldset>
+```
+40.
+```
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" rows="3" cols="30"></textarea>
+        </label>
+      </fieldset>
+```
+41.
+```
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+```
+42.
+```
+        <fieldset>
+        <label for="first-name">Enter Your First Name: <input name="first-name" id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input name="last-name" id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input name="email" id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input name="new-password" id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input name="profile-picture" id="profile-picture" type="file"/></label>
+        <label for="age">Input your age (years): <input name="age" id="age" type="number" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select name="referrer" id="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea name="bio" id ="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input name="terms-and-conditions" id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+```
+43.
+```
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;  
+}
+```
+44.
+```
+h1, p{
+  margin:1em auto;
+  text-align: center;
+}
+```
+45.
+```
+form {
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 500px;
+  width: 60vw;
+}
+```
+46.
+```
+fieldset {
+  border: none;
+  padding: 2rem 0;
+}
+```
+47.
+```
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+```
+48.
+```
+fieldset:last-of-type {
+  border-bottom: none;
+}
+```
+49.
+```
+input, textarea, select {
+  display: block;
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+```
+50.
+```
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input class="inline" id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input class="inline" id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+```
+51.
+```
+.inline {
+  width: unset;
+}
+```
+52.
+```
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+}
+```
+53.
+```
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+```
+54.
+```
+input, textarea {
+  background-color: #0a0a23;
+  border: #0a0a23 1px solid;
+}
+```
+55.
+```
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+  min-height: 2em;
+}
+```
+56.
+```
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+```
+57.
+```
+input[type="submit"]{
+  display: block;
+  width: 60%;
+}
+```
+58.
+```
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin:0 auto;
+}
+```
+59.
+```
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  height: 2em;
+  font-size: 1.1rem;
+}
+```
+60.
+```
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+}
+```
+61.
+```
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  margin: 1em auto;
+  min-width: 300px;
+}
+```
+62.
+```
+input[type="file"]{
+  padding: 1px 2px;
+}
+```
+63.
+```
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+```
+64.
+```
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+```
+65.
+```
+a{
+color: #dfdfe2 ;
+}
+```
 thats enough for now,
 
-next HTML Forms by Building a Registration Form, 20-65
+next [HTML Forms by Building a Registration Form, 20-65](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)
 
 see u next time
