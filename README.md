@@ -2777,13 +2777,18 @@ index.html
     <link rel="stylesheet" href="styles.css">    <title>survey-form.freecodecamp.rocks</title>
   </head>
   <body>
-    <h1 id="title">12 freeCodeCamp Survey Form</h1>
-    <p id="description">34 Thank you for taking the time to help us improve the platform</p>
+    <h1 id="title"> freeCodeCamp Survey Form</h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform</p>
 
     <form id="survey-form"> 
-      <label id="name-label"> <input id="name" placeholder="name" required> </label>
-      <label id="email-label"> <input id="email" type="email" placeholder="email" required> </label>
-      <label id="number-label"> <input id="number" type="number" placeholder="name" min="8" max="18" required> </label>
+    <div class="formgroup">
+      <label id="name-label">name <input id="name" placeholder="name" required> </label>
+    </div>
+    <div class="formgroup">
+      <label id="email-label">email <input id="email" type="email" placeholder="email" required> </label>
+    </div>
+      <label id="number-label">NUMBER <input id="number" type="number" placeholder="name" min="8" max="18" required> </label>
+    <div class="formgroup">
       <select id="dropdown">
         <option disabled>(pick one)
         </option>
@@ -2792,17 +2797,25 @@ index.html
         <option>
         </option>
       </select> 
-      <fieldset> sure
+    </div>
+    <div class="formgroup">
+      sure
       <input type="radio" value="definetly" name="sure">
       <input type="radio" value="maybe" name="sure">
       <input type="radio" value="notsure" name="sure">
-      </fieldset>
+    </div>
+    <div class="formgroup">
       <input type="checkbox" value="front-end" name="webdev">
       <input type="checkbox" value="back-end" name="webdev">
       <input type="checkbox" value="fullstack" name="webdev">
+    </div>
+    <div class="formgroup">
       <textarea value="textarea" name="textarea">
       </textarea>
+    </div>
+    <div class="formgroup">
       <input type="submit" id="submit" value="submit" name="submit">
+    </div>
     </form>
       
   </body>
@@ -2825,13 +2838,23 @@ body {
 #survey-form {
 display:block;
 margin:20%;
-padding:2.5rem;
+padding:2rem;
 background-color:red;
 border-radius:0.25rem;
-box-sizing:border-box;
-min-width: 480px;
+min-width: 12vw;
 }
 
+.formgroup{
+padding:0.5rem;
+}
+
+input, textarea, button, select{
+  display:block;
+  margin:0;
+min-width: 12rem;
+line-height: 1.5rem;
+
+}
 #name {
 
 }
