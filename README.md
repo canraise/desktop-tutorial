@@ -2759,7 +2759,7 @@ color: #dfdfe2 ;
 }
 ```
 
-[HTML Forms by Building a Registration Form, 20-65](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)
+[HTML Forms by Building a Registration Form](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)
 
 step by step that i do for this:
 1. do a scaffolding based on requirement (test 1-44)
@@ -2782,32 +2782,49 @@ index.html
 
     <form id="survey-form"> 
     <div class="formgroup">
-      <label id="name-label">name <input id="name" placeholder="name" required> </label>
+      <label id="name-label">your name:<input id="name" placeholder="name" required> </label>
     </div>
     <div class="formgroup">
-      <label id="email-label">email <input id="email" type="email" placeholder="email" required> </label>
+      <label id="email-label">your email:<input id="email" type="email" placeholder="email" required> </label>
     </div>
-      <label id="number-label">NUMBER <input id="number" type="number" placeholder="name" min="8" max="18" required> </label>
     <div class="formgroup">
-      <select id="dropdown">
+      <label id="number-label">your phone number:<input id="number" type="number" placeholder="number" min="8" max="18" required> </label>
+    </div>
+    <div class="formgroup">
+      <label> pick your roadmap:
+        <select id="dropdown">
         <option disabled>(pick one)
         </option>
-        <option>
+        <option>a
         </option>
-        <option>
+        <option>b
         </option>
       </select> 
+      </label>
     </div>
     <div class="formgroup">
-      sure
-      <input type="radio" value="definetly" name="sure">
-      <input type="radio" value="maybe" name="sure">
-      <input type="radio" value="notsure" name="sure">
+      are you sure?
+      <label>
+      <input class="inline" type="radio" value="definetly" name="sure">definietly
+      </label>
+      <label>
+      <input class="inline" type="radio" value="maybe" name="sure">maybe
+      </label>
+      <label>
+      <input class="inline" type="radio" value="notsure" name="sure">notsure
+      </label>
     </div>
     <div class="formgroup">
-      <input type="checkbox" value="front-end" name="webdev">
-      <input type="checkbox" value="back-end" name="webdev">
-      <input type="checkbox" value="fullstack" name="webdev">
+      let you check your skills!
+      <label>
+      <input class="inline" type="checkbox" value="front-end" name="webdev">front-end
+      </label>
+      <label>
+      <input class="inline" type="checkbox" value="back-end" name="webdev">back-end
+      </label>
+      <label>
+      <input class="inline" type="checkbox" value="fullstack" name="webdev">fullstack
+      </label>
     </div>
     <div class="formgroup">
       <textarea value="textarea" name="textarea">
@@ -2828,33 +2845,19 @@ body {
 }
 
 #title {
-
+text-align:center;
 }
 
 #description {
-
+text-align:center;
 }
 
 #survey-form {
-display:block;
-margin:20%;
-padding:2rem;
-background-color:red;
-border-radius:0.25rem;
-min-width: 12vw;
+  background-color:rgba(68, 81, 100, 0.633);
+padding: 2em;
+border-radius: 0.3em;
 }
 
-.formgroup{
-padding:0.5rem;
-}
-
-input, textarea, button, select{
-  display:block;
-  margin:0;
-min-width: 12rem;
-line-height: 1.5rem;
-
-}
 #name {
 
 }
@@ -2886,10 +2889,72 @@ line-height: 1.5rem;
 #submit {
 
 }
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.formgroup {
+  border: none;
+  padding: 0.1rem 0;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #3b3b4f;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 0.8em auto;
+  height: 2.5em;
+  font-size: 1.1rem;
+  background-color: #ccc;
+  border-color: 3b3b4f;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
 ```
 
 thats enough for now,
 
-next 
+next Learn the CSS Box Model by Building a Rothko Painting
 
 see u next time
