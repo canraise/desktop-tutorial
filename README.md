@@ -2758,8 +2758,115 @@ a{
 color: #dfdfe2 ;
 }
 ```
+
+[HTML Forms by Building a Registration Form, 20-65](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)
+
+step by step that i do for this:
+1. do a scaffolding based on requirement (test 1-44)
+2. make the index.html and styles.css for number 1
+3. fix it and style it
+4. repeat number 3 until finished the test.
+
+
+index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css">    <title>survey-form.freecodecamp.rocks</title>
+  </head>
+  <body>
+    <h1 id="title">12 freeCodeCamp Survey Form</h1>
+    <p id="description">34 Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form"> 
+      <label id="name-label"> <input id="name" placeholder="name" required> </label>
+      <label id="email-label"> <input id="email" type="email" placeholder="email" required> </label>
+      <label id="number-label"> <input id="number" type="number" placeholder="name" min="8" max="18" required> </label>
+      <select id="dropdown">
+        <option disabled>(pick one)
+        </option>
+        <option>
+        </option>
+        <option>
+        </option>
+      </select> 
+      <fieldset> sure
+      <input type="radio" value="definetly" name="sure">
+      <input type="radio" value="maybe" name="sure">
+      <input type="radio" value="notsure" name="sure">
+      </fieldset>
+      <input type="checkbox" value="front-end" name="webdev">
+      <input type="checkbox" value="back-end" name="webdev">
+      <input type="checkbox" value="fullstack" name="webdev">
+      <textarea value="textarea" name="textarea">
+      </textarea>
+      <input type="submit" id="submit" value="submit" name="submit">
+    </form>
+      
+  </body>
+```
+
+styles.css
+```
+body {
+  margin: 0;
+}
+
+#title {
+
+}
+
+#description {
+
+}
+
+#survey-form {
+display:block;
+margin:20%;
+padding:2.5rem;
+background-color:red;
+border-radius:0.25rem;
+box-sizing:border-box;
+min-width: 480px;
+}
+
+#name {
+
+}
+
+#email {
+
+}
+
+#number {
+
+}
+
+#name-label {
+
+}
+
+#email-label {
+
+}
+
+#number-label {
+
+}
+
+#dropdown {
+
+}
+
+#submit {
+
+}
+```
+
 thats enough for now,
 
-next [HTML Forms by Building a Registration Form, 20-65](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)
+next 
 
 see u next time
